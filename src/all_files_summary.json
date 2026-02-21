@@ -1,0 +1,18 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no methods or state, serving as a placeholder backend.",
+  "feature_evidence.json": "Feature evidence report documenting six implemented features including landing page, shoe gallery, contact methods, logo display, and luxury theming with high confidence test coverage.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of seven frontend files describing the luxury shoe store's component structure, styling, and configuration.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining luxury-focused design tokens for light and dark modes with neutral grayscale palette.",
+  "frontend/index.html": "HTML entry point with basic meta tags, title 'luxury shop', and root div for React mounting.",
+  "frontend/src/App.tsx": "Root React component composing Hero, ShoeGallery, and ContactInfo into a single-page layout.",
+  "frontend/src/components/ContactInfo.tsx": "Footer component displaying phone number 9079846195 with clickable phone and WhatsApp buttons, copyright notice, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/Hero.tsx": "Hero section displaying luxury shop logo, brand name with sparkle icons, and tagline about premium footwear with gradient background.",
+  "frontend/src/components/ShoeGallery.tsx": "Responsive grid gallery showcasing five shoe images (heels, dress shoes, sneakers, boots, loafers) with hover effects and luxury styling.",
+  "frontend/src/hooks/useActor.ts": "React hook managing ICP actor creation with identity-based authentication, query caching, and automatic invalidation on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication with login/logout functionality, status tracking, and AuthClient management.",
+  "frontend/src/hooks/useQueries.ts": "Intentionally empty file as the static showcase website has no backend methods or data fetching requirements.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom luxury-themed color palette (light/dark modes), OKLCH color space variables, and custom utility classes for luxury shadows and gold accents.",
+  "frontend/src/main.tsx": "React application entry point that sets up QueryClient, InternetIdentityProvider, and renders the root App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with custom colors (luxury-gold, sidebar, chart), font families (Inter, Playfair Display), border radius variables, and custom animations/keyframes.",
+  "project_state.json": "Project metadata defining a static luxury shoe store website with contact-only functionality (phone/WhatsApp), image requirements for shoes and logo, and six existing features for landing page, gallery, contact display, and luxury theming."
+}

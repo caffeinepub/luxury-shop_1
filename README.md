@@ -1,2 +1,3 @@
-# luxury-shop_1
-Exported from Caffeine project: luxury shop
+## luxury shop
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`
