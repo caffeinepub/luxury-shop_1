@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-luxury-gold/20 blur-3xl rounded-full" />
             <img
               src="/assets/generated/luxury-shop-logo.dim_400x400.png"
-              alt="Luxury Shop Logo"
+              alt="Hari Traders Logo"
               className="relative w-32 h-32 md:w-40 md:h-40 object-contain drop-shadow-2xl"
             />
           </div>
@@ -18,7 +18,7 @@ export default function Hero() {
           {/* Brand Name */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight text-foreground">
-              luxury shop
+              hari traders
             </h1>
             <div className="flex items-center justify-center gap-2 text-luxury-gold">
               <Sparkles className="w-5 h-5" />

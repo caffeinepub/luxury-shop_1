@@ -1,61 +1,32 @@
 {
   "schemaVersion": "1.0.0",
   "projectStateVersion": 3,
-  "summary": "Simple shoes store website for 'luxury shop' showcasing famous/stylish shoe images with contact information (phone and WhatsApp). No pricing or online shopping functionality.",
-  "architectural_notes": [
-    "Static website with no backend or e-commerce functionality",
-    "Focus on visual presentation of shoe products",
-    "Contact-only approach (phone and WhatsApp)"
-  ],
+  "summary": "New project",
+  "architectural_notes": [],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Elegant luxury shop logo for a high-end shoe store, sophisticated design with clean lines (luxury-shop-logo.dim_400x400.png)\n- Stylish high-fashion women's heels on white background, professional product photography (shoe-heels.dim_800x800.png)\n- Luxury men's leather dress shoes, side angle, professional lighting (shoe-dress.dim_800x800.png)\n- Designer sneakers, modern street style, clean background (shoe-sneakers.dim_800x800.png)\n- Elegant women's boots, full view, fashion photography style (shoe-boots.dim_800x800.png)\n- Premium leather loafers, professional product shot (shoe-loafers.dim_800x800.png)",
   "existing_features": [
     {
-      "id": "feature-create-a-simple-elegant-landing-page-showcasing-the-luxury-shop-brand-and-shoe-collection",
-      "title": "Create a simple, elegant landing page showcasing the luxury shop brand and shoe collection",
+      "id": "feature-change-the-shoe-gallery-layout-from-the-current-responsive-grid-to-a-2-column-grid-format-where-shoes-display-two-side-by-side-in-each-row-continuing-down-the-page",
+      "title": "Change the shoe gallery layout from the current responsive grid to a 2-column grid format where shoes display two side by side in each row, continuing down the page",
       "reqIds": [
         "REQ-1"
       ],
       "version": 1
     },
     {
-      "id": "feature-display-a-gallery-of-famous-stylish-shoe-images-in-an-attractive-grid-or-carousel-layout",
-      "title": "Display a gallery of famous, stylish shoe images in an attractive grid or carousel layout",
+      "id": "feature-update-the-shop-name-throughout-the-website-from-the-current-name-to-hari-traders",
+      "title": "Update the shop name throughout the website from the current name to 'hari traders'",
       "reqIds": [
         "REQ-2"
       ],
       "version": 1
     },
     {
-      "id": "feature-display-phone-number-9079846195-prominently-as-a-contact-method",
-      "title": "Display phone number 9079846195 prominently as a contact method",
+      "id": "feature-update-both-the-whatsapp-and-phone-contact-numbers-to-919056156995-in-the-contactinfo-component",
+      "title": "Update both the WhatsApp and phone contact numbers to +919056156995 in the ContactInfo component",
       "reqIds": [
         "REQ-3"
-      ],
-      "version": 1
-    },
-    {
-      "id": "feature-add-whatsapp-contact-link-for-number-9079846195-that-opens-whatsapp-when-clicked",
-      "title": "Add WhatsApp contact link for number 9079846195 that opens WhatsApp when clicked",
-      "reqIds": [
-        "REQ-4"
-      ],
-      "version": 1
-    },
-    {
-      "id": "feature-display-the-generated-luxury-shop-logo-prominently-in-the-header-or-hero-section",
-      "title": "Display the generated luxury shop logo prominently in the header or hero section",
-      "reqIds": [
-        "REQ-5"
-      ],
-      "version": 1
-    },
-    {
-      "id": "feature-apply-a-sophisticated-luxury-focused-visual-theme-with-elegant-typography-refined-color-palette-avoid-blue-and-purple-unless-naturally-fitting-luxury-aesthetic-and-spacious-layout-that-emphasizes-high-end-fashion-photography",
-      "title": "Apply a sophisticated, luxury-focused visual theme with elegant typography, refined color palette (avoid blue and purple unless naturally fitting luxury aesthetic), and spacious layout that emphasizes high-end fashion photography",
-      "reqIds": [
-        "REQ-6"
       ],
       "version": 1
     }
@@ -63,31 +34,24 @@
   "new_feature_requests": [
     {
       "id": "AR-1",
-      "summary": "Display famous/stylish shoe images in gallery format",
+      "summary": "Change shoe gallery layout to 2-column grid format",
       "reqIds": [],
       "status": "pending"
     },
     {
       "id": "AR-2",
-      "summary": "Add shop logo for 'luxury shop'",
+      "summary": "Update shop name to 'hari traders'",
       "reqIds": [],
       "status": "pending"
     },
     {
       "id": "AR-3",
-      "summary": "Display phone number (9079846195) for contact",
-      "reqIds": [],
-      "status": "pending"
-    },
-    {
-      "id": "AR-4",
-      "summary": "Add WhatsApp contact link (9079846195)",
+      "summary": "Update contact and WhatsApp number to +919056156995",
       "reqIds": [],
       "status": "pending"
     }
   ],
-  "gameProjectType": "none",
-  "projectName": "luxury shop",
+  "projectName": "hari traders",
   "clarification_mode": "instant",
   "clarification_rounds": 0
 }

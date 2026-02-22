@@ -2,8 +2,8 @@ import { Phone, MessageCircle, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function ContactInfo() {
-  const phoneNumber = '9079846195';
-  const whatsappNumber = '9079846195';
+  const phoneNumber = '+919056156995';
+  const whatsappNumber = '919056156995';
 
   const handlePhoneClick = () => {
     window.location.href = `tel:${phoneNumber}`;
@@ -15,7 +15,7 @@ export default function ContactInfo() {
 
   const appIdentifier = typeof window !== 'undefined' 
     ? encodeURIComponent(window.location.hostname) 
-    : 'luxury-shop';
+    : 'hari-traders';
 
   return (
     <footer className="bg-gradient-to-br from-accent/10 via-background to-accent/5 border-t border-border/40">
@@ -59,7 +59,7 @@ export default function ContactInfo() {
           {/* Footer Info */}
           <div className="text-center space-y-6">
             <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-              <span>© {new Date().getFullYear()} luxury shop. All rights reserved.</span>
+              <span>© {new Date().getFullYear()} hari traders. All rights reserved.</span>
             </div>
 
             {/* Attribution */}

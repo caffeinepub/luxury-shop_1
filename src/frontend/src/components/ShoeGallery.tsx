@@ -43,8 +43,8 @@ export default function ShoeGallery() {
           <div className="w-24 h-0.5 bg-luxury-gold mx-auto" />
         </div>
 
-        {/* Gallery Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 max-w-7xl mx-auto">
+        {/* Gallery Grid - Fixed 2 columns */}
+        <div className="grid grid-cols-2 gap-6 md:gap-12 max-w-5xl mx-auto">
           {shoes.map((shoe) => (
             <div
               key={shoe.id}
@@ -62,8 +62,8 @@ export default function ShoeGallery() {
               </div>
 
               {/* Title */}
-              <div className="p-6 text-center">
-                <h3 className="text-lg md:text-xl font-serif font-semibold text-foreground tracking-wide">
+              <div className="p-4 md:p-6 text-center">
+                <h3 className="text-base md:text-xl font-serif font-semibold text-foreground tracking-wide">
                   {shoe.title}
                 </h3>
               </div>

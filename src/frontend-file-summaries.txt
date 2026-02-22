@@ -1,9 +1,10 @@
 {
-  "frontend/src/App.tsx": "Main application component that composes the Hero, ShoeGallery, and ContactInfo sections into a complete single-page luxury shoe store website.",
-  "frontend/src/components/Hero.tsx": "Hero section component displaying the luxury shop logo, brand name, and elegant tagline with sophisticated styling and gold accents.",
-  "frontend/src/components/ShoeGallery.tsx": "Gallery component showcasing five shoe images in a responsive grid layout with hover effects and elegant card styling.",
-  "frontend/src/components/ContactInfo.tsx": "Footer component with prominent phone and WhatsApp contact buttons, copyright information, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/App.tsx": "Main application component that composes the Hero, ShoeGallery, Reviews, and ContactInfo sections into a complete single-page luxury shoe store website.",
+  "frontend/src/components/Hero.tsx": "Hero section component displaying the Hari Traders logo, brand name, and elegant tagline with sophisticated styling and gold accents.",
+  "frontend/src/components/ShoeGallery.tsx": "Gallery component showcasing five shoe images in a fixed 2-column grid layout with hover effects and elegant card styling.",
+  "frontend/src/components/ContactInfo.tsx": "Footer component with prominent phone (+919056156995) and WhatsApp contact buttons, copyright information for Hari Traders, and caffeine.ai attribution with UTM tracking.",
   "frontend/src/index.css": "Global styles defining a luxury-focused OKLCH color system with gold accents, custom shadow utilities, and refined typography for both light and dark modes.",
   "frontend/tailwind.config.js": "Tailwind configuration extended with luxury gold colors, serif font family (Playfair Display), minimal border radius, and custom spacing for high-end aesthetic.",
-  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as the backend has no methods and this is a static showcase website."
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as the backend has no methods and this is a static showcase website.",
+  "frontend/src/components/Reviews.tsx": "Customer testimonials component displaying 4 reviews with profile pictures, names, 5-star ratings, and review text in an elegant grid layout with luxury-themed styling and hover effects."
 }

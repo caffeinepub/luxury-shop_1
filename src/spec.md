@@ -1,13 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Create a simple, elegant landing page for "Luxury Shop" showcasing a high-end shoe collection with contact information.
+**Goal:** Update the shoe gallery layout to display 2 shoes per row, change shop name to "hari traders", and update contact numbers to +919056156995.
 
 **Planned changes:**
-- Build a clean landing page displaying "Luxury Shop" branding with logo
-- Display a gallery of stylish shoe images in an attractive layout
-- Add phone number 9079846195 as a contact method (clickable on mobile)
-- Add WhatsApp contact button/link for number 9079846195
-- Apply sophisticated luxury-focused design with elegant typography and refined color palette
+- Change shoe gallery from current responsive grid to a 2-column grid layout (2 shoes per row)
+- Update shop name to "hari traders" throughout the website
+- Update both WhatsApp and phone contact numbers to +919056156995
 
-**User-visible outcome:** Users can view an elegant shoe showcase website, see the luxury shop branding, browse stylish shoe images, and easily contact the shop via phone or WhatsApp.
+**User-visible outcome:** Customers will see shoes displayed in a 2-column layout, the shop name will display as "hari traders", and both contact buttons will use the new phone number +919056156995.

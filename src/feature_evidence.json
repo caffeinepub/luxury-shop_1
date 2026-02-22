@@ -2,11 +2,9 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-create-a-simple-elegant-landing-page-showcasing-the-luxury-shop-brand-and-shoe-collection",
-      "featureTitle": "Create a simple, elegant landing page showcasing the luxury shop brand and shoe collection",
+      "featureId": "feature-change-the-shoe-gallery-layout-from-the-current-responsive-grid-to-a-2-column-grid-format-where-shoes-display-two-side-by-side-in-each-row-continuing-down-the-page",
+      "featureTitle": "Change the shoe gallery layout from the current responsive grid to a 2-column grid format where shoes display two side by side in each row, continuing down the page",
       "files": [
-        "frontend/src/App.tsx",
-        "frontend/src/components/Hero.tsx",
         "frontend/src/components/ShoeGallery.tsx"
       ],
       "components": [
@@ -22,10 +20,10 @@
       "confidence": "high"
     },
     {
-      "featureId": "feature-display-a-gallery-of-famous-stylish-shoe-images-in-an-attractive-grid-or-carousel-layout",
-      "featureTitle": "Display a gallery of famous, stylish shoe images in an attractive grid or carousel layout",
+      "featureId": "feature-update-the-shop-name-throughout-the-website-from-the-current-name-to-hari-traders",
+      "featureTitle": "Update the shop name throughout the website from the current name to 'hari traders'",
       "files": [
-        "frontend/src/components/ShoeGallery.tsx"
+        "frontend/src/components/Hero.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -40,8 +38,8 @@
       "confidence": "high"
     },
     {
-      "featureId": "feature-display-phone-number-9079846195-prominently-as-a-contact-method",
-      "featureTitle": "Display phone number 9079846195 prominently as a contact method",
+      "featureId": "feature-update-both-the-whatsapp-and-phone-contact-numbers-to-919056156995-in-the-contactinfo-component",
+      "featureTitle": "Update both the WhatsApp and phone contact numbers to +919056156995 in the ContactInfo component",
       "files": [
         "frontend/src/components/ContactInfo.tsx"
       ],
@@ -54,61 +52,6 @@
       ],
       "testIds": [
         "REQ-3"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-add-whatsapp-contact-link-for-number-9079846195-that-opens-whatsapp-when-clicked",
-      "featureTitle": "Add WhatsApp contact link for number 9079846195 that opens WhatsApp when clicked",
-      "files": [
-        "frontend/src/components/ContactInfo.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-4"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-display-the-generated-luxury-shop-logo-prominently-in-the-header-or-hero-section",
-      "featureTitle": "Display the generated luxury shop logo prominently in the header or hero section",
-      "files": [
-        "frontend/src/components/Hero.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-5"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-apply-a-sophisticated-luxury-focused-visual-theme-with-elegant-typography-refined-color-palette-avoid-blue-and-purple-unless-naturally-fitting-luxury-aesthetic-and-spacious-layout-that-emphasizes-high-end-fashion-photography",
-      "featureTitle": "Apply a sophisticated, luxury-focused visual theme with elegant typography, refined color palette (avoid blue and purple unless naturally fitting luxury aesthetic), and spacious layout that emphasizes high-end fashion photography",
-      "files": [
-        "frontend/src/index.css",
-        "frontend/tailwind.config.js"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-6"
       ],
       "confidence": "high"
     }

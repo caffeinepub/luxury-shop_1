@@ -1,117 +1,54 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Luxury Shop Shoe Showcase Website",
+  "title": "Update gallery layout, shop name, and contact number",
   "requirements": [
     {
       "id": "REQ-1",
-      "summary": "Create elegant landing page showcasing luxury shop brand and shoe collection",
+      "summary": "Change shoe gallery from responsive grid to 2-column grid layout with shoes displaying two per row",
       "acceptanceCriteria": [
-        "Landing page displays shop name 'luxury shop' prominently",
-        "Layout is clean and uncluttered",
-        "Design emphasizes visual showcase over functionality"
+        "Shoe gallery displays exactly 2 shoes per row",
+        "Layout maintains consistent spacing between items",
+        "Grid continues vertically with multiple rows of 2 shoes each",
+        "Layout is responsive and maintains structure on different screen sizes"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/App.tsx",
-          "operation": "modify",
-          "description": "Transform App component into a landing page with hero section displaying 'Luxury Shop' branding, shoe gallery section, and contact information footer. Ensure clean, uncluttered layout with focus on visual showcase."
-        },
-        {
-          "path": "frontend/src/components/Hero.tsx",
-          "operation": "create",
-          "description": "Create Hero component with prominent 'Luxury Shop' heading, luxury shop logo from frontend/public/assets/generated/luxury-shop-logo.dim_400x400.png, and elegant tagline. Design for visual impact with spacious layout."
-        },
-        {
           "path": "frontend/src/components/ShoeGallery.tsx",
-          "operation": "create",
-          "description": "Create ShoeGallery component to display shoe images in responsive grid layout. Wire this component into App.tsx as the main content section below the hero."
+          "operation": "modify",
+          "description": "Update the grid layout from responsive grid to fixed 2-column grid. Change the grid classes to display exactly 2 shoes per row with consistent spacing. Ensure the layout uses grid-cols-2 for all screen sizes while maintaining the existing luxury styling and hover effects for all 5 shoe products."
         }
       ]
     },
     {
       "id": "REQ-2",
-      "summary": "Display shoe image gallery in attractive grid layout",
+      "summary": "Update shop name to 'hari traders' throughout the website",
       "acceptanceCriteria": [
-        "Multiple shoe images are displayed in a visually appealing format",
-        "Images are high-quality and showcase shoes as the focal point",
-        "Gallery layout is responsive and works on mobile devices"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/ShoeGallery.tsx",
-          "operation": "modify",
-          "description": "Implement responsive grid layout displaying the five generated shoe images: frontend/public/assets/generated/shoe-heels.dim_800x800.png, frontend/public/assets/generated/shoe-dress.dim_800x800.png, frontend/public/assets/generated/shoe-sneakers.dim_800x800.png, frontend/public/assets/generated/shoe-boots.dim_800x800.png, and frontend/public/assets/generated/shoe-loafers.dim_800x800.png. Ensure images are focal points with appropriate spacing and mobile responsiveness."
-        }
-      ]
-    },
-    {
-      "id": "REQ-3",
-      "summary": "Display phone number 9079846195 prominently as contact method",
-      "acceptanceCriteria": [
-        "Phone number 9079846195 is clearly visible on the page",
-        "Number is formatted for readability",
-        "On mobile devices, clicking the number initiates a phone call"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/ContactInfo.tsx",
-          "operation": "create",
-          "description": "Create ContactInfo component displaying formatted phone number 9079846195 with tel: link for mobile click-to-call functionality. Wire this component into App.tsx footer or contact section."
-        }
-      ]
-    },
-    {
-      "id": "REQ-4",
-      "summary": "Add WhatsApp contact link for number 9079846195",
-      "acceptanceCriteria": [
-        "WhatsApp icon or button is visible on the page",
-        "Clicking the WhatsApp contact opens WhatsApp with number 9079846195",
-        "Link works on both mobile and desktop devices"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/ContactInfo.tsx",
-          "operation": "modify",
-          "description": "Add WhatsApp button/icon with link using wa.me/9079846195 format to open WhatsApp on both mobile and desktop. Include recognizable WhatsApp icon or styling."
-        }
-      ]
-    },
-    {
-      "id": "REQ-5",
-      "summary": "Display generated luxury shop logo in hero section",
-      "acceptanceCriteria": [
-        "Logo is rendered from the generated image asset",
-        "Logo appears in a prominent position (header or hero)",
-        "Logo is appropriately sized and maintains quality"
+        "Shop name displays as 'hari traders' in the hero section",
+        "Any other instances of the shop name are updated to 'hari traders'",
+        "Shop name maintains luxury styling and branding"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/Hero.tsx",
           "operation": "modify",
-          "description": "Integrate generated logo from frontend/public/assets/generated/luxury-shop-logo.dim_400x400.png into Hero component. Position prominently in header area with appropriate sizing to maintain quality and visual hierarchy."
+          "description": "Update the brand name text to display 'hari traders' while maintaining the existing luxury styling, sparkle icons, logo display, and tagline. Ensure the text transformation and font styling are preserved."
         }
       ]
     },
     {
-      "id": "REQ-6",
-      "summary": "Apply sophisticated luxury-focused visual theme",
+      "id": "REQ-3",
+      "summary": "Update phone and WhatsApp contact numbers to +919056156995",
       "acceptanceCriteria": [
-        "Color scheme conveys sophistication and luxury",
-        "Typography is elegant and readable",
-        "Layout provides ample whitespace around images",
-        "Overall aesthetic matches high-end fashion brands"
+        "Phone contact button displays and links to +919056156995",
+        "WhatsApp contact button displays and links to +919056156995",
+        "Both buttons maintain their existing functionality and styling"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/index.css",
+          "path": "frontend/src/components/ContactInfo.tsx",
           "operation": "modify",
-          "description": "Define luxury-focused color palette emphasizing sophistication (golds, blacks, whites, subtle neutrals), elegant typography selections with appropriate font families, and establish spacing utilities for ample whitespace throughout the design."
-        },
-        {
-          "path": "frontend/tailwind.config.js",
-          "operation": "modify",
-          "description": "Extend Tailwind configuration with custom luxury theme colors, refined typography scale, and spacing values that support high-end fashion aesthetic with generous whitespace."
+          "description": "Update both the phone contact button and WhatsApp button to use +919056156995 as the contact number. Update the tel: link for the phone button and the WhatsApp URL to include the new number. Preserve all existing button styling, icons, and the footer layout including copyright and caffeine.ai attribution."
         }
       ]
     }

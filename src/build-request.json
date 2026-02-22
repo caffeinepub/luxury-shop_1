@@ -1,139 +1,79 @@
 {
   "kind": "build_request",
-  "title": "Create shoe showcase website with contact information",
-  "projectName": "Luxury Shop",
+  "title": "Update gallery layout, shop name, and contact number",
+  "projectName": "Hari Traders",
   "priority": "normal",
   "requirements": [
     {
       "id": "REQ-1",
-      "text": "Create a simple, elegant landing page showcasing the luxury shop brand and shoe collection",
+      "text": "Change the shoe gallery layout from the current responsive grid to a 2-column grid format where shoes display two side by side in each row, continuing down the page",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-1"
+          "msg-7"
         ],
         "quotes": [
-          "Make a website for shoes store",
-          "The website should be simple"
+          "The pics of shoes should be like two side by side than two more side by side",
+          "Get two in row than more like that down in website"
         ]
       },
       "acceptanceCriteria": [
-        "Landing page displays shop name 'luxury shop' prominently",
-        "Layout is clean and uncluttered",
-        "Design emphasizes visual showcase over functionality"
+        "Shoe gallery displays exactly 2 shoes per row",
+        "Layout maintains consistent spacing between items",
+        "Grid continues vertically with multiple rows of 2 shoes each",
+        "Layout is responsive and maintains structure on different screen sizes"
       ]
     },
     {
       "id": "REQ-2",
-      "text": "Display a gallery of famous, stylish shoe images in an attractive grid or carousel layout",
+      "text": "Update the shop name throughout the website from the current name to 'hari traders'",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-1"
+          "msg-7"
         ],
         "quotes": [
-          "With famous , style pics of shoes"
+          "Change shop name to....... hari traders"
         ]
       },
       "acceptanceCriteria": [
-        "Multiple shoe images are displayed in a visually appealing format",
-        "Images are high-quality and showcase shoes as the focal point",
-        "Gallery layout is responsive and works on mobile devices"
+        "Shop name displays as 'hari traders' in the hero section",
+        "Any other instances of the shop name are updated to 'hari traders'",
+        "Shop name maintains luxury styling and branding"
       ]
     },
     {
       "id": "REQ-3",
-      "text": "Display phone number 9079846195 prominently as a contact method",
+      "text": "Update both the WhatsApp and phone contact numbers to +919056156995 in the ContactInfo component",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-1"
+          "msg-7"
         ],
         "quotes": [
-          "Add phone number as .....9079846195"
+          "Whattsap number and contact number to....+919056156995"
         ]
       },
       "acceptanceCriteria": [
-        "Phone number 9079846195 is clearly visible on the page",
-        "Number is formatted for readability",
-        "On mobile devices, clicking the number initiates a phone call"
-      ]
-    },
-    {
-      "id": "REQ-4",
-      "text": "Add WhatsApp contact link for number 9079846195 that opens WhatsApp when clicked",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-1"
-        ],
-        "quotes": [
-          "Whattsap number....9079846195"
-        ]
-      },
-      "acceptanceCriteria": [
-        "WhatsApp icon or button is visible on the page",
-        "Clicking the WhatsApp contact opens WhatsApp with number 9079846195",
-        "Link works on both mobile and desktop devices"
-      ]
-    },
-    {
-      "id": "REQ-5",
-      "text": "Display the generated luxury shop logo prominently in the header or hero section",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-1"
-        ],
-        "quotes": [
-          "Shop name ..... luxury shop ....with a logo of shop"
-        ]
-      },
-      "acceptanceCriteria": [
-        "Logo is rendered from the generated image asset",
-        "Logo appears in a prominent position (header or hero)",
-        "Logo is appropriately sized and maintains quality"
-      ]
-    },
-    {
-      "id": "REQ-6",
-      "text": "Apply a sophisticated, luxury-focused visual theme with elegant typography, refined color palette (avoid blue and purple unless naturally fitting luxury aesthetic), and spacious layout that emphasizes high-end fashion photography",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-1"
-        ]
-      },
-      "acceptanceCriteria": [
-        "Color scheme conveys sophistication and luxury",
-        "Typography is elegant and readable",
-        "Layout provides ample whitespace around images",
-        "Overall aesthetic matches high-end fashion brands"
+        "Phone contact button displays and links to +919056156995",
+        "WhatsApp contact button displays and links to +919056156995",
+        "Both buttons maintain their existing functionality and styling"
       ]
     }
   ],
   "constraints": [
-    "Do not include any pricing information or price displays",
-    "Do not implement shopping cart or e-commerce functionality",
-    "Do not add product purchase or checkout features"
+    "Maintain the existing luxury theme and styling",
+    "Preserve the ContactInfo component's phone and WhatsApp button functionality",
+    "Keep the existing shoe images and product information"
   ],
   "nonGoals": [
-    "Online shopping capabilities",
-    "Price listings or product pricing",
-    "Shopping cart functionality",
-    "Payment processing",
-    "User accounts or authentication",
-    "Product inventory management"
+    "Adding new shoes to the gallery",
+    "Changing the reviews section layout",
+    "Modifying the hero section layout beyond the shop name",
+    "Adding new contact methods beyond phone and WhatsApp"
   ],
   "imageRequirements": {
-    "required": [
-      "Elegant luxury shop logo for a high-end shoe store, sophisticated design with clean lines (luxury-shop-logo.dim_400x400.png)",
-      "Stylish high-fashion women's heels on white background, professional product photography (shoe-heels.dim_800x800.png)",
-      "Luxury men's leather dress shoes, side angle, professional lighting (shoe-dress.dim_800x800.png)",
-      "Designer sneakers, modern street style, clean background (shoe-sneakers.dim_800x800.png)",
-      "Elegant women's boots, full view, fashion photography style (shoe-boots.dim_800x800.png)",
-      "Premium leather loafers, professional product shot (shoe-loafers.dim_800x800.png)"
-    ],
+    "required": [],
     "edits": []
   }
 }
