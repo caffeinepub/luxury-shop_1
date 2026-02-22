@@ -1,54 +1,38 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Update gallery layout, shop name, and contact number",
+  "title": "Update shoe gallery with men's branded footwear",
   "requirements": [
     {
       "id": "REQ-1",
-      "summary": "Change shoe gallery from responsive grid to 2-column grid layout with shoes displaying two per row",
+      "summary": "Replace all shoe gallery images with men's footwear from major brands including Adidas, Nike, Puma, and Asian",
       "acceptanceCriteria": [
-        "Shoe gallery displays exactly 2 shoes per row",
-        "Layout maintains consistent spacing between items",
-        "Grid continues vertically with multiple rows of 2 shoes each",
-        "Layout is responsive and maintains structure on different screen sizes"
+        "All 5 shoe images in the gallery display men's footwear only",
+        "Shoe images represent brands: Adidas, Nike, Puma, Asian, and at least one additional brand",
+        "Each shoe product title reflects the actual brand name",
+        "Images maintain the existing 2-column grid layout"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/ShoeGallery.tsx",
           "operation": "modify",
-          "description": "Update the grid layout from responsive grid to fixed 2-column grid. Change the grid classes to display exactly 2 shoes per row with consistent spacing. Ensure the layout uses grid-cols-2 for all screen sizes while maintaining the existing luxury styling and hover effects for all 5 shoe products."
+          "description": "Update the products array to reference the 5 new generated men's shoe images using their workspace paths: frontend/public/assets/generated/adidas-mens-shoe.dim_800x600.png, frontend/public/assets/generated/nike-mens-shoe.dim_800x600.png, frontend/public/assets/generated/puma-mens-shoe.dim_800x600.png, frontend/public/assets/generated/asian-mens-shoe.dim_800x600.png, and frontend/public/assets/generated/other-brand-mens-shoe.dim_800x600.png. Replace the existing shoe image references while maintaining the 2-column grid layout structure and luxury theme styling."
         }
       ]
     },
     {
       "id": "REQ-2",
-      "summary": "Update shop name to 'hari traders' throughout the website",
+      "summary": "Update shoe product titles and descriptions to match the new men's branded footwear images",
       "acceptanceCriteria": [
-        "Shop name displays as 'hari traders' in the hero section",
-        "Any other instances of the shop name are updated to 'hari traders'",
-        "Shop name maintains luxury styling and branding"
+        "Product titles include brand names (e.g., 'Nike Air Max', 'Adidas Ultraboost')",
+        "Descriptions emphasize men's styling and brand authenticity",
+        "All text remains consistent with luxury branding theme"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/components/Hero.tsx",
+          "path": "frontend/src/components/ShoeGallery.tsx",
           "operation": "modify",
-          "description": "Update the brand name text to display 'hari traders' while maintaining the existing luxury styling, sparkle icons, logo display, and tagline. Ensure the text transformation and font styling are preserved."
-        }
-      ]
-    },
-    {
-      "id": "REQ-3",
-      "summary": "Update phone and WhatsApp contact numbers to +919056156995",
-      "acceptanceCriteria": [
-        "Phone contact button displays and links to +919056156995",
-        "WhatsApp contact button displays and links to +919056156995",
-        "Both buttons maintain their existing functionality and styling"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/ContactInfo.tsx",
-          "operation": "modify",
-          "description": "Update both the phone contact button and WhatsApp button to use +919056156995 as the contact number. Update the tel: link for the phone button and the WhatsApp URL to include the new number. Preserve all existing button styling, icons, and the footer layout including copyright and caffeine.ai attribution."
+          "description": "Update the product titles in the products array to include specific brand names (e.g., 'Adidas Ultraboost', 'Nike Air Max', 'Puma RS-X', 'Asian Marathon') and revise descriptions to emphasize men's footwear styling and brand authenticity while maintaining the luxury theme tone and existing component structure."
         }
       ]
     }

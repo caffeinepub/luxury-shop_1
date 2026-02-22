@@ -1,32 +1,28 @@
 {
   "schemaVersion": "1.0.0",
   "projectStateVersion": 3,
-  "summary": "New project",
-  "architectural_notes": [],
+  "summary": "Hari Traders menswear e-commerce site focusing on branded shoes (Adidas, Nike, Puma, Asian, etc.)",
+  "architectural_notes": [
+    "Product catalog focuses on men's branded footwear",
+    "Multi-brand inventory: Adidas, Nike, Puma, Asian, and other brands"
+  ],
   "known_issues": [],
   "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Men's Adidas sneaker product photo on white background (adidas-mens-shoe.dim_800x600.png)\n- Men's Nike athletic shoe product photo on white background (nike-mens-shoe.dim_800x600.png)\n- Men's Puma sports shoe product photo on white background (puma-mens-shoe.dim_800x600.png)\n- Men's Asian brand casual shoe product photo on white background (asian-mens-shoe.dim_800x600.png)\n- Men's branded formal or casual shoe from another brand on white background (other-brand-mens-shoe.dim_800x600.png)",
   "existing_features": [
     {
-      "id": "feature-change-the-shoe-gallery-layout-from-the-current-responsive-grid-to-a-2-column-grid-format-where-shoes-display-two-side-by-side-in-each-row-continuing-down-the-page",
-      "title": "Change the shoe gallery layout from the current responsive grid to a 2-column grid format where shoes display two side by side in each row, continuing down the page",
+      "id": "feature-replace-all-shoe-gallery-images-with-men-s-footwear-from-major-brands-including-adidas-nike-puma-and-asian",
+      "title": "Replace all shoe gallery images with men's footwear from major brands including Adidas, Nike, Puma, and Asian",
       "reqIds": [
         "REQ-1"
       ],
       "version": 1
     },
     {
-      "id": "feature-update-the-shop-name-throughout-the-website-from-the-current-name-to-hari-traders",
-      "title": "Update the shop name throughout the website from the current name to 'hari traders'",
+      "id": "feature-update-shoe-product-titles-and-descriptions-to-match-the-new-men-s-branded-footwear-images",
+      "title": "Update shoe product titles and descriptions to match the new men's branded footwear images",
       "reqIds": [
         "REQ-2"
-      ],
-      "version": 1
-    },
-    {
-      "id": "feature-update-both-the-whatsapp-and-phone-contact-numbers-to-919056156995-in-the-contactinfo-component",
-      "title": "Update both the WhatsApp and phone contact numbers to +919056156995 in the ContactInfo component",
-      "reqIds": [
-        "REQ-3"
       ],
       "version": 1
     }
@@ -34,24 +30,12 @@
   "new_feature_requests": [
     {
       "id": "AR-1",
-      "summary": "Change shoe gallery layout to 2-column grid format",
-      "reqIds": [],
-      "status": "pending"
-    },
-    {
-      "id": "AR-2",
-      "summary": "Update shop name to 'hari traders'",
-      "reqIds": [],
-      "status": "pending"
-    },
-    {
-      "id": "AR-3",
-      "summary": "Update contact and WhatsApp number to +919056156995",
+      "summary": "Change shoe images to men's wear only with brands: Adidas, Nike, Puma, Asian, and other brands",
       "reqIds": [],
       "status": "pending"
     }
   ],
-  "projectName": "hari traders",
+  "projectName": "Hari Traders",
   "clarification_mode": "instant",
   "clarification_rounds": 0
 }

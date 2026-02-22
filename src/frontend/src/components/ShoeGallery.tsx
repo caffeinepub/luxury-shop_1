@@ -2,33 +2,33 @@ export default function ShoeGallery() {
   const shoes = [
     {
       id: 1,
-      image: '/assets/generated/shoe-heels.dim_800x800.png',
-      alt: 'Elegant High Heels',
-      title: 'Elegant Heels'
+      image: '/assets/generated/adidas-mens-shoe.dim_800x600.png',
+      alt: 'Adidas Ultraboost Men\'s Running Shoes',
+      title: 'Adidas Ultraboost'
     },
     {
       id: 2,
-      image: '/assets/generated/shoe-dress.dim_800x800.png',
-      alt: 'Luxury Dress Shoes',
-      title: 'Dress Shoes'
+      image: '/assets/generated/nike-mens-shoe.dim_800x600.png',
+      alt: 'Nike Air Max Men\'s Sneakers',
+      title: 'Nike Air Max'
     },
     {
       id: 3,
-      image: '/assets/generated/shoe-sneakers.dim_800x800.png',
-      alt: 'Designer Sneakers',
-      title: 'Designer Sneakers'
+      image: '/assets/generated/puma-mens-shoe.dim_800x600.png',
+      alt: 'Puma RS-X Men\'s Athletic Shoes',
+      title: 'Puma RS-X'
     },
     {
       id: 4,
-      image: '/assets/generated/shoe-boots.dim_800x800.png',
-      alt: 'Premium Boots',
-      title: 'Premium Boots'
+      image: '/assets/generated/asian-mens-shoe.dim_800x600.png',
+      alt: 'Asian Marathon Men\'s Sports Shoes',
+      title: 'Asian Marathon'
     },
     {
       id: 5,
-      image: '/assets/generated/shoe-loafers.dim_800x800.png',
-      alt: 'Luxury Loafers',
-      title: 'Luxury Loafers'
+      image: '/assets/generated/other-brand-mens-shoe.dim_800x600.png',
+      alt: 'Premium Men\'s Casual Shoes',
+      title: 'Premium Casual'
     }
   ];
 

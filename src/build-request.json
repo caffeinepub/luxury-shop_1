@@ -1,79 +1,63 @@
 {
   "kind": "build_request",
-  "title": "Update gallery layout, shop name, and contact number",
+  "title": "Update shoe gallery with men's branded footwear",
   "projectName": "Hari Traders",
   "priority": "normal",
   "requirements": [
     {
       "id": "REQ-1",
-      "text": "Change the shoe gallery layout from the current responsive grid to a 2-column grid format where shoes display two side by side in each row, continuing down the page",
+      "text": "Replace all shoe gallery images with men's footwear from major brands including Adidas, Nike, Puma, and Asian",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-7"
+          "msg-6"
         ],
         "quotes": [
-          "The pics of shoes should be like two side by side than two more side by side",
-          "Get two in row than more like that down in website"
+          "Change pics of shoes to only mens wear With brands like ..... Adidas Nike Puma Asian And more different brands"
         ]
       },
       "acceptanceCriteria": [
-        "Shoe gallery displays exactly 2 shoes per row",
-        "Layout maintains consistent spacing between items",
-        "Grid continues vertically with multiple rows of 2 shoes each",
-        "Layout is responsive and maintains structure on different screen sizes"
+        "All 5 shoe images in the gallery display men's footwear only",
+        "Shoe images represent brands: Adidas, Nike, Puma, Asian, and at least one additional brand",
+        "Each shoe product title reflects the actual brand name",
+        "Images maintain the existing 2-column grid layout"
       ]
     },
     {
       "id": "REQ-2",
-      "text": "Update the shop name throughout the website from the current name to 'hari traders'",
+      "text": "Update shoe product titles and descriptions to match the new men's branded footwear images",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-7"
-        ],
-        "quotes": [
-          "Change shop name to....... hari traders"
+          "msg-6"
         ]
       },
       "acceptanceCriteria": [
-        "Shop name displays as 'hari traders' in the hero section",
-        "Any other instances of the shop name are updated to 'hari traders'",
-        "Shop name maintains luxury styling and branding"
-      ]
-    },
-    {
-      "id": "REQ-3",
-      "text": "Update both the WhatsApp and phone contact numbers to +919056156995 in the ContactInfo component",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-7"
-        ],
-        "quotes": [
-          "Whattsap number and contact number to....+919056156995"
-        ]
-      },
-      "acceptanceCriteria": [
-        "Phone contact button displays and links to +919056156995",
-        "WhatsApp contact button displays and links to +919056156995",
-        "Both buttons maintain their existing functionality and styling"
+        "Product titles include brand names (e.g., 'Nike Air Max', 'Adidas Ultraboost')",
+        "Descriptions emphasize men's styling and brand authenticity",
+        "All text remains consistent with luxury branding theme"
       ]
     }
   ],
   "constraints": [
-    "Maintain the existing luxury theme and styling",
-    "Preserve the ContactInfo component's phone and WhatsApp button functionality",
-    "Keep the existing shoe images and product information"
+    "Maintain existing 2-column grid layout in ShoeGallery component",
+    "Preserve luxury theme styling and color scheme",
+    "Keep existing component structure in ShoeGallery.tsx"
   ],
   "nonGoals": [
-    "Adding new shoes to the gallery",
-    "Changing the reviews section layout",
-    "Modifying the hero section layout beyond the shop name",
-    "Adding new contact methods beyond phone and WhatsApp"
+    "Adding e-commerce functionality or shopping cart",
+    "Changing the overall page layout or navigation",
+    "Modifying contact information or business details",
+    "Adding product filtering or search features"
   ],
   "imageRequirements": {
-    "required": [],
+    "required": [
+      "Men's Adidas sneaker product photo on white background (adidas-mens-shoe.dim_800x600.png)",
+      "Men's Nike athletic shoe product photo on white background (nike-mens-shoe.dim_800x600.png)",
+      "Men's Puma sports shoe product photo on white background (puma-mens-shoe.dim_800x600.png)",
+      "Men's Asian brand casual shoe product photo on white background (asian-mens-shoe.dim_800x600.png)",
+      "Men's branded formal or casual shoe from another brand on white background (other-brand-mens-shoe.dim_800x600.png)"
+    ],
     "edits": []
   }
 }

@@ -2,8 +2,8 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-change-the-shoe-gallery-layout-from-the-current-responsive-grid-to-a-2-column-grid-format-where-shoes-display-two-side-by-side-in-each-row-continuing-down-the-page",
-      "featureTitle": "Change the shoe gallery layout from the current responsive grid to a 2-column grid format where shoes display two side by side in each row, continuing down the page",
+      "featureId": "feature-replace-all-shoe-gallery-images-with-men-s-footwear-from-major-brands-including-adidas-nike-puma-and-asian",
+      "featureTitle": "Replace all shoe gallery images with men's footwear from major brands including Adidas, Nike, Puma, and Asian",
       "files": [
         "frontend/src/components/ShoeGallery.tsx"
       ],
@@ -20,10 +20,10 @@
       "confidence": "high"
     },
     {
-      "featureId": "feature-update-the-shop-name-throughout-the-website-from-the-current-name-to-hari-traders",
-      "featureTitle": "Update the shop name throughout the website from the current name to 'hari traders'",
+      "featureId": "feature-update-shoe-product-titles-and-descriptions-to-match-the-new-men-s-branded-footwear-images",
+      "featureTitle": "Update shoe product titles and descriptions to match the new men's branded footwear images",
       "files": [
-        "frontend/src/components/Hero.tsx"
+        "frontend/src/components/ShoeGallery.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -34,24 +34,6 @@
       ],
       "testIds": [
         "REQ-2"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-update-both-the-whatsapp-and-phone-contact-numbers-to-919056156995-in-the-contactinfo-component",
-      "featureTitle": "Update both the WhatsApp and phone contact numbers to +919056156995 in the ContactInfo component",
-      "files": [
-        "frontend/src/components/ContactInfo.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-3"
       ],
       "confidence": "high"
     }

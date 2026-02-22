@@ -1,11 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Update the shoe gallery layout to display 2 shoes per row, change shop name to "hari traders", and update contact numbers to +919056156995.
+**Goal:** Replace shoe gallery with men's branded footwear from major brands (Adidas, Nike, Puma, Asian, and others).
 
 **Planned changes:**
-- Change shoe gallery from current responsive grid to a 2-column grid layout (2 shoes per row)
-- Update shop name to "hari traders" throughout the website
-- Update both WhatsApp and phone contact numbers to +919056156995
+- Replace all 5 shoe product images with men's footwear from popular brands
+- Update product titles to include brand names (e.g., "Nike Air Max", "Adidas Ultraboost")
+- Update product descriptions to emphasize men's styling and brand authenticity
 
-**User-visible outcome:** Customers will see shoes displayed in a 2-column layout, the shop name will display as "hari traders", and both contact buttons will use the new phone number +919056156995.
+**User-visible outcome:** The shoe gallery displays 5 men's branded shoes from Adidas, Nike, Puma, Asian, and other brands with matching product titles and descriptions.
