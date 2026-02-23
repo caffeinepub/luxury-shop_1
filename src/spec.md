@@ -1,11 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Replace shoe gallery with men's branded footwear from major brands (Adidas, Nike, Puma, Asian, and others).
+**Goal:** Remove shoe names from product cards and expand the gallery with 7 additional men's shoe images.
 
 **Planned changes:**
-- Replace all 5 shoe product images with men's footwear from popular brands
-- Update product titles to include brand names (e.g., "Nike Air Max", "Adidas Ultraboost")
-- Update product descriptions to emphasize men's styling and brand authenticity
+- Remove product name text from all shoe cards while keeping images visible
+- Add 7 new men's branded shoe product images to the gallery
+- Maintain 2-column grid layout to accommodate total of 12 shoe images
 
-**User-visible outcome:** The shoe gallery displays 5 men's branded shoes from Adidas, Nike, Puma, Asian, and other brands with matching product titles and descriptions.
+**User-visible outcome:** Users will see a cleaner gallery of 12 shoe images without product names, displaying only the visual products in a luxury-styled 2-column layout.

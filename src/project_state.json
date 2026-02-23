@@ -1,26 +1,23 @@
 {
   "schemaVersion": "1.0.0",
   "projectStateVersion": 3,
-  "summary": "Hari Traders menswear e-commerce site focusing on branded shoes (Adidas, Nike, Puma, Asian, etc.)",
-  "architectural_notes": [
-    "Product catalog focuses on men's branded footwear",
-    "Multi-brand inventory: Adidas, Nike, Puma, Asian, and other brands"
-  ],
+  "summary": "Men's shoe collection web app with brand-name styles, now focused on image-heavy display without shoe names",
+  "architectural_notes": [],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Men's Adidas sneaker product photo on white background (adidas-mens-shoe.dim_800x600.png)\n- Men's Nike athletic shoe product photo on white background (nike-mens-shoe.dim_800x600.png)\n- Men's Puma sports shoe product photo on white background (puma-mens-shoe.dim_800x600.png)\n- Men's Asian brand casual shoe product photo on white background (asian-mens-shoe.dim_800x600.png)\n- Men's branded formal or casual shoe from another brand on white background (other-brand-mens-shoe.dim_800x600.png)",
+  "imageRequirements": "## Required Images\n- Men's branded athletic sneaker in side profile view (shoe-6.dim_800x800.png)\n- Men's branded running shoe in three-quarter view (shoe-7.dim_800x800.png)\n- Men's branded casual leather shoe in front view (shoe-8.dim_800x800.png)\n- Men's branded high-top sneaker in side view (shoe-9.dim_800x800.png)\n- Men's branded slip-on shoe in three-quarter view (shoe-10.dim_800x800.png)\n- Men's branded dress shoe in side profile (shoe-11.dim_800x800.png)\n- Men's branded sports shoe in dynamic angle (shoe-12.dim_800x800.png)",
   "existing_features": [
     {
-      "id": "feature-replace-all-shoe-gallery-images-with-men-s-footwear-from-major-brands-including-adidas-nike-puma-and-asian",
-      "title": "Replace all shoe gallery images with men's footwear from major brands including Adidas, Nike, Puma, and Asian",
+      "id": "feature-remove-the-shoe-name-text-e-g-adidas-ultraboost-nike-air-max-from-all-shoe-cards-in-the-gallery-display-while-keeping-the-images-visible",
+      "title": "Remove the shoe name text (e.g., 'Adidas Ultraboost', 'Nike Air Max') from all shoe cards in the gallery display while keeping the images visible",
       "reqIds": [
         "REQ-1"
       ],
       "version": 1
     },
     {
-      "id": "feature-update-shoe-product-titles-and-descriptions-to-match-the-new-men-s-branded-footwear-images",
-      "title": "Update shoe product titles and descriptions to match the new men's branded footwear images",
+      "id": "feature-add-7-additional-men-s-branded-shoe-product-images-to-the-gallery-maintaining-the-current-luxury-aesthetic-and-2-column-grid-layout",
+      "title": "Add 7 additional men's branded shoe product images to the gallery, maintaining the current luxury aesthetic and 2-column grid layout",
       "reqIds": [
         "REQ-2"
       ],
@@ -30,7 +27,13 @@
   "new_feature_requests": [
     {
       "id": "AR-1",
-      "summary": "Change shoe images to men's wear only with brands: Adidas, Nike, Puma, Asian, and other brands",
+      "summary": "Remove shoe names from display",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add 7 more shoe product images",
       "reqIds": [],
       "status": "pending"
     }

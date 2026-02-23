@@ -2,8 +2,8 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-replace-all-shoe-gallery-images-with-men-s-footwear-from-major-brands-including-adidas-nike-puma-and-asian",
-      "featureTitle": "Replace all shoe gallery images with men's footwear from major brands including Adidas, Nike, Puma, and Asian",
+      "featureId": "feature-remove-the-shoe-name-text-e-g-adidas-ultraboost-nike-air-max-from-all-shoe-cards-in-the-gallery-display-while-keeping-the-images-visible",
+      "featureTitle": "Remove the shoe name text (e.g., 'Adidas Ultraboost', 'Nike Air Max') from all shoe cards in the gallery display while keeping the images visible",
       "files": [
         "frontend/src/components/ShoeGallery.tsx"
       ],
@@ -20,8 +20,8 @@
       "confidence": "high"
     },
     {
-      "featureId": "feature-update-shoe-product-titles-and-descriptions-to-match-the-new-men-s-branded-footwear-images",
-      "featureTitle": "Update shoe product titles and descriptions to match the new men's branded footwear images",
+      "featureId": "feature-add-7-additional-men-s-branded-shoe-product-images-to-the-gallery-maintaining-the-current-luxury-aesthetic-and-2-column-grid-layout",
+      "featureTitle": "Add 7 additional men's branded shoe product images to the gallery, maintaining the current luxury aesthetic and 2-column grid layout",
       "files": [
         "frontend/src/components/ShoeGallery.tsx"
       ],

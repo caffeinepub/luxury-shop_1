@@ -1,62 +1,66 @@
 {
   "kind": "build_request",
-  "title": "Update shoe gallery with men's branded footwear",
+  "title": "Remove shoe names and add 7 more product images",
   "projectName": "Hari Traders",
   "priority": "normal",
   "requirements": [
     {
       "id": "REQ-1",
-      "text": "Replace all shoe gallery images with men's footwear from major brands including Adidas, Nike, Puma, and Asian",
+      "text": "Remove the shoe name text (e.g., 'Adidas Ultraboost', 'Nike Air Max') from all shoe cards in the gallery display while keeping the images visible",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-6"
+          "msg-latest"
         ],
         "quotes": [
-          "Change pics of shoes to only mens wear With brands like ..... Adidas Nike Puma Asian And more different brands"
+          "Remove shoes name"
         ]
       },
       "acceptanceCriteria": [
-        "All 5 shoe images in the gallery display men's footwear only",
-        "Shoe images represent brands: Adidas, Nike, Puma, Asian, and at least one additional brand",
-        "Each shoe product title reflects the actual brand name",
-        "Images maintain the existing 2-column grid layout"
+        "Shoe cards display only images without any product name text",
+        "Card layout and styling remain consistent with current luxury design",
+        "Hover effects and other card interactions continue to work"
       ]
     },
     {
       "id": "REQ-2",
-      "text": "Update shoe product titles and descriptions to match the new men's branded footwear images",
+      "text": "Add 7 additional men's branded shoe product images to the gallery, maintaining the current luxury aesthetic and 2-column grid layout",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-6"
+          "msg-latest"
+        ],
+        "quotes": [
+          "add more pics of shoes ....... about 7 more pics"
         ]
       },
       "acceptanceCriteria": [
-        "Product titles include brand names (e.g., 'Nike Air Max', 'Adidas Ultraboost')",
-        "Descriptions emphasize men's styling and brand authenticity",
-        "All text remains consistent with luxury branding theme"
+        "Gallery displays a total of 12 shoe images (5 existing + 7 new)",
+        "New shoe images feature various men's branded footwear styles",
+        "2-column grid layout adapts to accommodate all 12 images",
+        "All images maintain consistent styling and hover effects"
       ]
     }
   ],
   "constraints": [
-    "Maintain existing 2-column grid layout in ShoeGallery component",
-    "Preserve luxury theme styling and color scheme",
-    "Keep existing component structure in ShoeGallery.tsx"
+    "Maintain the current luxury design theme with gold accents",
+    "Keep the 2-column grid layout structure",
+    "Preserve all hover effects and card interactions"
   ],
   "nonGoals": [
-    "Adding e-commerce functionality or shopping cart",
-    "Changing the overall page layout or navigation",
-    "Modifying contact information or business details",
-    "Adding product filtering or search features"
+    "Adding shoe names or descriptions back",
+    "Changing the overall page layout or other sections",
+    "Adding filtering or sorting functionality"
   ],
   "imageRequirements": {
     "required": [
-      "Men's Adidas sneaker product photo on white background (adidas-mens-shoe.dim_800x600.png)",
-      "Men's Nike athletic shoe product photo on white background (nike-mens-shoe.dim_800x600.png)",
-      "Men's Puma sports shoe product photo on white background (puma-mens-shoe.dim_800x600.png)",
-      "Men's Asian brand casual shoe product photo on white background (asian-mens-shoe.dim_800x600.png)",
-      "Men's branded formal or casual shoe from another brand on white background (other-brand-mens-shoe.dim_800x600.png)"
+      "Men's branded athletic sneaker in side profile view (shoe-6.dim_800x800.png)",
+      "Men's branded running shoe in three-quarter view (shoe-7.dim_800x800.png)",
+      "Men's branded casual leather shoe in front view (shoe-8.dim_800x800.png)",
+      "Men's branded high-top sneaker in side view (shoe-9.dim_800x800.png)",
+      "Men's branded slip-on shoe in three-quarter view (shoe-10.dim_800x800.png)",
+      "Men's branded dress shoe in side profile (shoe-11.dim_800x800.png)",
+      "Men's branded sports shoe in dynamic angle (shoe-12.dim_800x800.png)"
     ],
     "edits": []
   }

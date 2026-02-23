@@ -3,32 +3,62 @@ export default function ShoeGallery() {
     {
       id: 1,
       image: '/assets/generated/adidas-mens-shoe.dim_800x600.png',
-      alt: 'Adidas Ultraboost Men\'s Running Shoes',
-      title: 'Adidas Ultraboost'
+      alt: 'Adidas Ultraboost Men\'s Running Shoes'
     },
     {
       id: 2,
       image: '/assets/generated/nike-mens-shoe.dim_800x600.png',
-      alt: 'Nike Air Max Men\'s Sneakers',
-      title: 'Nike Air Max'
+      alt: 'Nike Air Max Men\'s Sneakers'
     },
     {
       id: 3,
       image: '/assets/generated/puma-mens-shoe.dim_800x600.png',
-      alt: 'Puma RS-X Men\'s Athletic Shoes',
-      title: 'Puma RS-X'
+      alt: 'Puma RS-X Men\'s Athletic Shoes'
     },
     {
       id: 4,
       image: '/assets/generated/asian-mens-shoe.dim_800x600.png',
-      alt: 'Asian Marathon Men\'s Sports Shoes',
-      title: 'Asian Marathon'
+      alt: 'Asian Marathon Men\'s Sports Shoes'
     },
     {
       id: 5,
       image: '/assets/generated/other-brand-mens-shoe.dim_800x600.png',
-      alt: 'Premium Men\'s Casual Shoes',
-      title: 'Premium Casual'
+      alt: 'Premium Men\'s Casual Shoes'
+    },
+    {
+      id: 6,
+      image: '/assets/generated/shoe-6.dim_800x800.png',
+      alt: 'Men\'s Designer Shoes'
+    },
+    {
+      id: 7,
+      image: '/assets/generated/shoe-7.dim_800x800.png',
+      alt: 'Men\'s Luxury Footwear'
+    },
+    {
+      id: 8,
+      image: '/assets/generated/shoe-8.dim_800x800.png',
+      alt: 'Men\'s Premium Sneakers'
+    },
+    {
+      id: 9,
+      image: '/assets/generated/shoe-9.dim_800x800.png',
+      alt: 'Men\'s Athletic Shoes'
+    },
+    {
+      id: 10,
+      image: '/assets/generated/shoe-10.dim_800x800.png',
+      alt: 'Men\'s Sport Shoes'
+    },
+    {
+      id: 11,
+      image: '/assets/generated/shoe-11.dim_800x800.png',
+      alt: 'Men\'s Casual Footwear'
+    },
+    {
+      id: 12,
+      image: '/assets/generated/shoe-12.dim_800x800.png',
+      alt: 'Men\'s Fashion Shoes'
     }
   ];
 
@@ -59,13 +89,6 @@ export default function ShoeGallery() {
                 />
                 {/* Overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </div>
-
-              {/* Title */}
-              <div className="p-4 md:p-6 text-center">
-                <h3 className="text-base md:text-xl font-serif font-semibold text-foreground tracking-wide">
-                  {shoe.title}
-                </h3>
               </div>
             </div>
           ))}
